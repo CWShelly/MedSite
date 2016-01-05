@@ -1,0 +1,125 @@
+
+
+#doctor{
+  font-family: 'Pinyon Script', cursive;
+  text-decoration: none;
+  font-size: 3em;
+  color:black;
+}
+
+#doctor:visited{
+  font-family: 'Pinyon Script', cursive;
+    text-decoration: none;
+  font-size: 3em;
+  color:black;
+}
+
+
+
+.header{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.right{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.brag{
+  float:left;
+}
+
+nav{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  /*background-color: #D4A190;*/
+  height:80px;
+  color: white;
+  border-bottom: 2px solid black;
+}
+
+
+.about{
+  text-decoration: none;
+  color:black;
+    font-family: 'Lato', sans-serif;
+      font-size: 1.25em;
+        margin-right: 50px;
+        padding-right: 10px;
+        border-right: 2px solid black;
+}
+.about:hover{
+
+    font-size: 1.25em;
+      margin-right: 50px;
+      /*background-color: rgba(255, 255, 255,.25);*/
+        background-color: rgba(164, 190, 235, .75);
+}
+
+.about:visited{
+  text-decoration: none;
+  color:black;
+    font-size: 1.25em;
+      margin-right: 50px;
+}
+
+
+body{
+  /*background-color: rgba(164, 190, 235, .75);*/
+   /*background-color: #63A4BA;*/
+      background-color: white;
+
+
+}
+
+.container{
+  width: 625px;
+  height:1000px;
+  float:right;
+  background-color: white;
+}
+
+#services{
+  display: block;
+  text-decoration: none;
+  outline: none;
+  cursor:pointer;
+  padding:8px 11px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  margin:5px;
+  width: 250px;
+  color:black;
+
+
+
+}
+
+ h3{
+  background-color: #808291;
+    /*background-color:black;*/
+  color:white;
+  text-align: center;
+}
+
+.servicesP{
+  list-style:circle;
+}
+/*p{
+  background-color: red;
+}*/
+
+/*#DrYusuf{
+  float:none;
+
+}*/
+
+
+/*
+.services{
+  float:right;
+}*/
