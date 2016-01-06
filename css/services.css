@@ -43,6 +43,7 @@ nav{
 }
 
 
+
 .about{
   text-decoration: none;
   color:black;
@@ -65,6 +66,10 @@ nav{
   color:black;
     font-size: 1.25em;
       margin-right: 50px;
+}
+
+#lastli{
+    border-right: none;
 }
 
 
