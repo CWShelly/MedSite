@@ -1,0 +1,310 @@
+
+
+#doctor{
+  font-family: 'Pinyon Script', cursive;
+  text-decoration: none;
+  font-size: 3em;
+  color:black;
+}
+
+#doctor:visited{
+  font-family: 'Pinyon Script', cursive;
+    text-decoration: none;
+  font-size: 3em;
+  color:black;
+}
+
+
+
+.header{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+
+
+}
+.right{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.brag{
+  float:left;
+}
+
+nav{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  /*background-color: #D4A190;*/
+  height:80px;
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+
+.about{
+  text-decoration: none;
+  color:black;
+    font-family: 'Lato', sans-serif;
+      font-size: 1.25em;
+        margin-right: 50px;
+        padding-right: 10px;
+        border-right: 2px solid black;
+}
+
+#lastli{
+    border-right: none;
+}
+.about:hover{
+
+    font-size: 1.25em;
+      margin-right: 50px;
+    background-color: rgba(164, 190, 235, .75);
+
+}
+
+.about:visited{
+  text-decoration: none;
+  color:black;
+    font-size: 1.25em;
+      margin-right: 50px;
+}
+
+
+body{
+  /*background-color: rgba(164, 190, 235, .75);*/
+   /*background-color: #63A4BA;*/
+      background-color: white;
+   /*background-image: url("imgs/joshuatree.jpg");*/
+   /*background-size:cover;*/
+
+
+}
+
+#slides{
+  position:relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slides ul{
+  position:relative;
+  margin:0;
+  padding:0;
+  height:200px;
+  list-style: none;
+
+}
+
+#slides ul #first{
+  position: relative;
+  display:block;
+  float:left;
+  margin:0;
+  padding:0;
+  width: 700px;
+  height:500px;
+  font-family: 'Wire One', sans-serif;
+    /*font-family: 'Lato', sans-serif;*/
+    font-size: 4em;
+    color:white;
+  /*background: blue;*/
+    background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.25),
+        rgba(255, 255, 255, 0.25)
+      ),
+     url(../imgs/joshuatree.jpg);
+  text-align:right;
+  line-height: 100px;
+  background-size: cover;
+  /*border: 2px solid black;*/
+}
+
+
+
+#slides ul #second{
+  position: relative;
+  display:block;
+  float:left;
+  margin:0;
+  padding:0;
+  width: 700px;
+  height:500px;
+  font-family: 'Wire One', sans-serif;
+  /*font-family: 'Lato', sans-serif;*/
+  font-size: 4em;
+  color:black;
+  /*background: orange;*/
+  background:
+  linear-gradient(
+    rgba(255, 255, 255, 0.45),
+      rgba(255, 255, 255, 0.45)
+    ), url(http://www.drelijahmobley.com/wp-content/uploads/2013/05/12320709_xxl.jpg);
+  background-size: cover;
+  text-align: right;
+  line-height: 200px;
+  /*border: 2px solid black;*/
+}
+
+#slides ul #third{
+  position: relative;
+  display:block;
+  float:left;
+  margin:0;
+  padding:0;
+  width: 700px;
+  height:500px;
+  color:black;
+  font-size: 4em;
+  font-family: 'Wire One', sans-serif;
+    /*font-family: 'Lato', sans-serif;*/
+
+  /*background: red;*/
+  background:
+  linear-gradient(
+    rgba(255, 255, 255, 0.45),
+      rgba(255, 255, 255, 0.45)
+    ), url(http://yaletownnaturopathic.com/wp-content/uploads/2015/05/surgery-vancouver-naturopath.jpg);
+  text-align: center;
+  line-height: 100px;
+  /*border: 2px solid black;*/
+}
+
+#slides ul #fourth{
+  position: relative;
+  display:block;
+  float:left;
+  margin:0;
+  padding:0;
+  width: 700px;
+  height:500px;
+  color:black;
+  font-size: 4em;
+  font-family: 'Wire One', sans-serif;
+    /*font-family: 'Lato', sans-serif;*/
+
+  /*background: red;*/
+  background:
+  linear-gradient(
+    rgba(255, 255, 255, 0.45),
+      rgba(255, 255, 255, 0.45)
+    ), url(http://blog.timpanogosregionalhospital.com/wp-content/uploads/2014/05/iStock_000004058000Large.jpg);
+
+    background-size: cover;
+
+  text-align: right;
+  /*line-height: 120px;*/
+  padding-top: 150px;
+  /*padding-left: 400px;*/
+  /*border: 2px solid black;*/
+}
+
+
+
+a.next, a.previous {
+  position:absolute;
+  top:40%;
+  z-index: 999;
+  display:block;
+  padding 4% 3%;
+  width: auto;
+  height: auto;
+  background-color: white;
+  color:black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 3em;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+a.next:hover{
+   opacity: 1;
+   color:black;
+   -webkit-transition: all 0.2s ease;
+
+
+}
+ a.previous:hover{
+  opacity: 1;
+  color:black;
+  -webkit-transition: all 0.2s ease;
+
+}
+
+a.control_prev{
+  border-radius: 0 10px 10px 0;
+}
+
+a.next{
+  right:0;
+  border-radius: 6px 0 0 6px;
+}
+
+.autoSlider{
+  position:relative;
+  margin: 4px auto;
+  width:160px;
+  font-size: 2em;
+}
+
+#DrYusuf{
+  float:right;
+  margin-left: 10px;
+
+}
+
+h3{
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+      font-size: 1em;
+}
+
+/*.picAndtext{
+  background-color: white;
+}*/
+/*.textAbout{
+  color:white;
+}*/
+
+
+.textNext{
+  width:500px;
+  float:right;
+  /*background-color: #808D91;*/
+  background-color: rgba(255, 255, 255, .25);
+}
+#servicesContainer{
+  width: 500px;
+  height: 1000px;
+  float:right;
+}
+
+#servicesImg{
+  float:left;
+}
+
+
+
+.servicesRight{
+  float:right;
+ list-style:decimal;
+ font-family: 'Lato', sans-serif;
+   font-size: 1em;
+}
+
+/*.services ol li{
+  float:right;
+ list-style: none;
+ display:list-item;*/
