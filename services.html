@@ -14,7 +14,11 @@
 
       <script src="jquery/jquery-ui.min.js"></script>
 
-      <script src = "js/services.js">
+      <!-- <script src = "js/services.js">
+        </script> -->
+
+        <script src = "js/services2.js">
+
         </script>
 
   </head>
@@ -31,23 +35,90 @@
 
     </header>
 
-    <nav>
+    <nav id = "mainNav">
      <li class = 'nav'><a href="about.html" class = "about"> Dr. Yusuf</a></li>
      <li class = 'nav'><a href="services.html" class ="about"> Services</a></li>
       <li class = 'nav'><a href="#" class ="about"> Our Staff</a></li>
        <li class = 'nav'><a href="#" class ="about"> Locations and Hours</a></li>
-        <li class = 'nav'><a href="#" class ="about">Your First Visit</a></li>
+        <li class = 'nav'><a href="#" class ="about" id = "lastli">Your First Visit</a></li>
 
 
     </nav>
 
+
+
+
+
+
   <img src="imgs/GaryCoppePhoto.jpeg" id = "DrYusuf" alt="Photo By Gary Coppe" />
-<section class = "container">
+
+<div class="contain">
+
+
+  <nav id = "subNav">
+
+    <ul class = "subNavUl">
+      <li class = "subNav" id = "serv"> Services:</li>
+
+      <li class = "subNav" id = "card">Cardiovascular
+
+        <ul class = "subNavUl2">
+          <li class = 'subCard'>Periocardial Window</li>
+          <li class = 'subCard'>Pacemaker Insertion, Including AICD Pacemakers</li>
+          <li class = 'subCard'>Carotid Artery Surgery</li>
+          <li class = 'subCard'>Endovascular Abdominal Aortic Aneurysm Repair</li>
+          <li class = 'subCard'>Peripheral Arterial Disease (PAD), Including Angioplasty and Bypass Surgery</li>
+          <li class = 'subCard'>Varicose Vein Surgery, Including Subfascial Endoscoping Perforator Surgery Procedure (SEPS Procedure) </li>
+          <li class = 'subCard'>Surgeries for Dialysis Patients, Including Creation of Cimino Fistula and Arteriovenous Graft and Declotting of Fistula and Graft; also, Permacath Insertion</li>
+        </ul>
 
 
 
 
-<div id="services">
+
+
+
+      <li class = "subNav" id ="thor">Thoracic
+          <ul class = "subNavUl2">
+            <li class = "subThor">Minimally Invasive Lung Surgery(VATS Procedure)</li>
+              <li class = "subThor">Laparoscopic Nissen Fundoplication(Reflux/ GERD Surgery)</li>
+                <li class= "subThor">Malignant Neoplasm Resection</li>
+        </ul>
+
+
+
+
+
+      <li class = "subNav" id = "gen">General
+    <ul class = "subNavUl2">
+      <li class = "subGen"> Laparoscopic Colorectal Surgery</li>
+      <li class = "subGen"> Laparoscopic Adrenal Resection</li>
+      <li class = "subGen"> Thyroid and Parathyroid Surgery</li>
+      <li class = "subGen"> Laparoscopic Inguinal Hernia Repair and Ventral Hernia Repair</li>
+      <li class = "subGen"> Laparoscopic Gallbladder Surgery</li>
+    <li class = "subGen"> Hemorrhoid Surgery</li>
+      <li class = "subGen"> Resection of Malignant Neoplasm</li>
+
+    </ul>
+
+
+
+
+    </ul>
+
+  </nav>
+
+</div>
+
+
+
+
+<!-- <section class = "container"> -->
+
+
+
+
+<!-- <div id="services">
   <h3 class = "services"> Thoracic Surgery...</h3>
   <div>
 <ul id = "thor" >
@@ -127,7 +198,7 @@ Resection of malignant neoplasm.
 
 </div>
 
-</section>
+</section> -->
 
   </body>
 </html>
