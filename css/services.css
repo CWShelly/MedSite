@@ -27,11 +27,11 @@
   justify-content: flex-end;
 }
 
-.brag{
+/*.brag{
   float:left;
-}
+}*/
 
-nav{
+#mainNav{
   list-style: none;
   display: flex;
   justify-content: flex-end;
@@ -78,7 +78,35 @@ body{
    /*background-color: #63A4BA;*/
       background-color: white;
 
+}
 
+.contain{
+  float:right;
+  width: 60%;
+  border: 2px solid red;
+}
+
+#subNav{
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  color:blue;
+
+
+}
+
+
+.subNavUl{
+  display: flex;
+  flex-direction: row;
+}
+
+.subNav{
+  list-style: none;
+  margin-right: 50px;
+  padding-right: 10px;
+  border-right: 2px solid red;
 }
 
 .container{
