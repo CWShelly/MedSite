@@ -11,6 +11,9 @@
 //   }).find('#card').hide()
 //   })
 
+
+///////
+
 $(document).ready(function(){
   $('#services').hover(function(){
     $(this).find('#card').stop(true, true).slideDown()
@@ -30,7 +33,7 @@ $(document).ready(function(){
     }).find('#thor').hide()
 
 });
-
+//
 
 $(document).ready(function(){
   $('#services').hover(function(){
@@ -41,6 +44,18 @@ $(document).ready(function(){
     }).find('#gen').hide()
 
 });
+
+/////
+
+
+
+
+
+
+
+
+
+
 
 
 
