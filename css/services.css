@@ -83,31 +83,96 @@ body{
 .contain{
   float:right;
   width: 60%;
-  border: 2px solid red;
+
+  /*border: 2px solid red;*/
+  /*background-color: blue;*/
 }
 
+#serv{
+  padding-right: 0px;
+}
 #subNav{
   list-style: none;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  color:blue;
-
+  color:black;
+    font-family: 'Lato', sans-serif;
+      font-size: 1em;
 
 }
+
 
 
 .subNavUl{
   display: flex;
   flex-direction: row;
+
 }
 
 .subNav{
   list-style: none;
   margin-right: 50px;
   padding-right: 10px;
-  border-right: 2px solid red;
+  /*border-right: 2px solid red;*/
 }
+
+
+
+.subNav2{
+  list-style: none;
+
+}
+
+.subThor{
+  list-style: none;
+  padding-top: 10px;
+
+
+}
+
+.subThor:hover{
+  background-color: #808291;
+  color:white;
+}
+
+
+
+.subCard{
+  list-style: none;
+  padding-top: 10px;
+}
+
+.subCard:hover{
+  background-color: #808291;
+  color:white;
+}
+
+#card:hover {
+  background-color: #808291;
+  color:white;
+}
+
+#gen:hover{
+  background-color: #808291;
+  color:white;
+}
+#thor:hover{
+  background-color: #808291;
+  color:white;
+}
+.subGen{
+  list-style: none;
+  padding-top: 10px;
+
+}
+
+.subGen:hover{
+  background-color: #808291;
+  color:white;
+}
+
+
 
 .container{
   width: 625px;
@@ -129,7 +194,6 @@ body{
   color:black;
 
 
-
 }
 
  h3{
@@ -142,6 +206,8 @@ body{
 .servicesP{
   list-style:circle;
 }
+
+
 /*p{
   background-color: red;
 }*/
