@@ -1,21 +1,32 @@
+function hey(){
+  console.log('hey');
+}
+hey();
+//
+// function initialize(location)
+// {
+// console.log(location);
+//
+// }
+//
+// $(document).ready(function()
+// {
+//     navigator.geolocation.getCurrentPosition(initialize);
+// });
+//
 
-var myCenter=new google.maps.LatLng(34.68973,-118.158841);
+var x = document.getElementById("demo");
 
-function initialize()
-{
-var mapProp = {
-  center:myCenter,
-  zoom:14,
-  mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.watchPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";}
+    }
 
-var map=new google.maps.Map(document.getElementById("theMap"),mapProp);
-
-var marker=new google.maps.Marker({
-  position:myCenter,
-  });
-
-marker.setMap(map);
+function showPosition(position) {
+    x.innerHTML="Latitude: " + position.coords.latitude +
+    "<br>Longitude: " + position.coords.longitude;
 }
 
-google.maps.event.addDomListener(window, 'load', initialize);
+getLocation();

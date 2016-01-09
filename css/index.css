@@ -318,7 +318,7 @@ h4{
    font-size: 1em;
 }
 
-/*.services ol li{
-  float:right;
- list-style: none;
- display:list-item;*/
+#map-canvas{
+height:500px;  
+
+}
