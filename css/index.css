@@ -1,4 +1,11 @@
 
+html {
+  background-color: white;
+  -webkit-background-size: 1400px 700px;
+  -moz-background-size: 1400px 700px;
+  -o-background-size: 1400px 700px;
+  background-size: 1400px 700px;
+}
 
 #doctor{
   font-family: 'Pinyon Script', cursive;
@@ -17,6 +24,7 @@
 
 
 .header{
+
   list-style: none;
   display: flex;
   justify-content: flex-end;
@@ -335,5 +343,5 @@ height:500px;
 }
 
 .mapHold{
-  border: 2px solid red;
+  border: 2px solid  #808291;;
 }
