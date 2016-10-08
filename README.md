@@ -1,2 +1,1 @@
-# MedSite
-A generic medical care website built with JQuery, HTML5, and Bootstrap
+A doctor's website built with JQuery, HTML5, and vanilla CSS
